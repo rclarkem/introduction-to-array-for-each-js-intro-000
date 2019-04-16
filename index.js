@@ -5,6 +5,5 @@ function doToElementsInArray(array, callback){
 
 // Add your changeCompletely() function here:
 function changeCompletely(array){
-let newA = [...array]
-return newA
+array.forEach(changeCompletely)
 }
